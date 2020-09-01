@@ -41,3 +41,50 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+/* link-list (from Seth Clydesdale) */
+#page-links { margin:15px 0 0 0; }
+#link-list { font-size:0; }
+#link-list span { font-size:14px; }
+
+#link-list a {
+  color:#FFF;
+  text-shadow:1px 1px 0 rgba(0, 0, 0, 0.3);
+  font-weight:bold;
+  text-decoration:none;
+  display:inline-block;
+  padding:3px 6px;
+  margin:10px 10px 0 0;
+}
+
+#link-edition   { background-color:#F60; border-bottom:2px solid #D40; }
+#link-help      { background-color:#39C; border-bottom:2px solid #17A; }
+#link-report    { background-color:#F66; border-bottom:2px solid #D44; }
+#link-download  { background-color:#9C6; border-bottom:2px solid #7A4; }
+#link-donate    { background-color:#C6C; border-bottom:2px solid #A4A; }
+#link-github    { background-color:#96F; border-bottom:2px solid #74D; }
+#link-edition:hover  { background-color:#E50; }
+#link-help:hover     { background-color:#28B; }
+#link-report:hover   { background-color:#E55; }
+#link-download:hover { background-color:#8B5; }
+#link-donate:hover   { background-color:#B5B; }
+#link-github:hover   { background-color:#85E; }
+#link-edition:active,
+#link-edition:focus  { background-color:#D40; }
+#link-help:active,
+#link-help:focus     { background-color:#17A; }
+#link-report:active,
+#link-report:focus   { background-color:#D44; }
+#link-download:active,
+#link-download:focus { background-color:#7A4; }
+#link-donate:active,
+#link-donate:focus   { background-color:#A4A; }
+#link-github:active,
+#link-github:focus   { background-color:#74D; }
+
+#link-list i {
+  font-size:16px;
+  vertical-align:middle;
+  margin-right:6px;
+}
+#link-github i, #link-help i { font-size:18px; }
