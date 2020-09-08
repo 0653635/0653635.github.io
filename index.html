@@ -21,3 +21,17 @@
 
 <h3>Here is the QR Code to this website (just in case you weren't on the website!):</h3>
 <img class="centre" src="images/qrcodetothewebsiteyourlookingat.png" alt="Useless QR Code" width="100" height="100">
+
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "c0bbc1c1-6c2c-48b9-8fe6-ab8010747bef", // The ID of this integration.
+      region: "au-syd", // The region your integration is hosted in.
+      serviceInstanceID: "34320cf2-9995-4142-9903-5f5f80be341d", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
