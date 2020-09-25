@@ -86,7 +86,7 @@ ul.posts li {
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: #666;
+  background-color: #FF6400;
 }
 
 /* Style the navigation bar links */
@@ -106,6 +106,6 @@ ul.posts li {
 
 /* Change color on hover */
 .navbar a:hover {
-  background-color: #eee;
+  background-color: #FF4B00;
   color: black;
 }
