@@ -66,7 +66,6 @@ p {
   margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
-  text-align: justify;
   color: #333;
 }
 footer {
@@ -87,14 +86,14 @@ ul.posts li {
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: #FF6400;
+  background-color: #8a0303;
 }
 
 /* Style the navigation bar links */
 .navbar a {
   float: left;
   display: block;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
@@ -107,6 +106,6 @@ ul.posts li {
 
 /* Change color on hover */
 .navbar a:hover {
-  background-color: #FF4B00;
-  color: black;
+  background-color: #FF6347;
+  color: #C0C0C0;
 }
