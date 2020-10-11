@@ -66,6 +66,7 @@ p {
   margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
+  text-align: justify;
   color: #333;
 }
 footer {
