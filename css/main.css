@@ -110,3 +110,20 @@ ul.posts li {
   background-color: #20B2AA;
   color: #C0C0C0;
 }
+
+/* Table formatting */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
